@@ -1,0 +1,6 @@
+{
+    "name": "cricket-api",
+    "description": "Free Live Cricket API.",
+    "repository": "https://github.com/sanwebinfo/cri-deploy",
+    "keywords": ["php", "curl", "json"]
+}
