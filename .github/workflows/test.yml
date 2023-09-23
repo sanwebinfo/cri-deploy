@@ -21,3 +21,5 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
       - run: php live.php
+      - name: Build Docker image 
+        run: docker build . --file Dockerfile --tag cri-deploy:$(date +%s)

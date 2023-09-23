@@ -56,13 +56,13 @@ docker container ps
 docker stop (containerID)
 
 ## For apache
-sudo docker run -d -p 6002:80 --name cricket cricket-api
+sudo docker run -d -p 6002:80 --name cricket cri-deploy
 
 ## Run the container forever (Localhost server)
 docker run -d --restart=always -p 6002:6002 --name cricket cri-deploy
 
 ## Apache server
-sudo docker run -d --restart=always -p 6002:80 --name cricket cricket-api
+sudo docker run -d --restart=always -p 6002:80 --name cricket cri-deploy
 
 ## List Hidden container if error exists
 docker ps -a
