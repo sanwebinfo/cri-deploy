@@ -1,4 +1,4 @@
-FROM php:8.2-cli-alpine
+FROM php:8.3-cli-alpine
 COPY . /var/www/html
 WORKDIR /var/www/html
 EXPOSE 6002
